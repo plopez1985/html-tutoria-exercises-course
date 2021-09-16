@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mAdd \"HTML tags are similar to MS Word elements\" between the <p> cosing tags → <p>HERE</p> \u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m      \u001b[36mlet\u001b[39m a \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mdocumentElement\u001b[33m.\u001b[39minnerHTML \u001b[33m=\u001b[39m html\u001b[33m.\u001b[39mtoString()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mconst\u001b[39m _regex \u001b[33m=\u001b[39m \u001b[35m/<p>\\s*HTML\\s*tags\\s*are\\s*similar\\s*to\\s*MS\\s*Word\\s*elements\\s*<\\/p>$/\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 18 |\u001b[39m     expect(_regex\u001b[33m.\u001b[39mtest(a))\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 19 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 20 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/01.2-Like-Word/tests.js\u001b[39m\u001b[0m\u001b[2m:18:28)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "Add a opening tag <p>",
+      "status": "passed"
+    },
+    {
+      "title": "Add a closing tag </p>",
+      "status": "passed"
+    },
+    {
+      "title": "Add \"HTML tags are similar to MS Word elements\" between the <p> cosing tags → <p>HERE</p> ",
+      "status": "failed"
+    }
+  ]
+}

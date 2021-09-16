@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 3,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "<video> tag exist",
+      "status": "passed"
+    },
+    {
+      "title": "<video> tag muted & autoplay exist",
+      "status": "passed"
+    },
+    {
+      "title": "<video> tag width=100% & height=100% exist",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "<iframe> tag exist",
+      "status": "passed"
+    },
+    {
+      "title": "<iframe> width=300px",
+      "status": "passed"
+    },
+    {
+      "title": "<iframe> height=200px",
+      "status": "passed"
+    },
+    {
+      "title": "<iframe> height=200px",
+      "status": "passed"
+    }
+  ]
+}

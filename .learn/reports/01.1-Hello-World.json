@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Add an opening strong tag <strong>",
+      "status": "passed"
+    },
+    {
+      "title": "Add a closing strong tag </strong>",
+      "status": "passed"
+    },
+    {
+      "title": "Add an opening strong tag <span>",
+      "status": "passed"
+    },
+    {
+      "title": "Add a closing strong tag </span>",
+      "status": "passed"
+    }
+  ]
+}

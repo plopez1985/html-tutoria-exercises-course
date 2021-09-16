@@ -1,0 +1,49 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 9,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "<!DOCTYPE html> tag should exist",
+      "status": "passed"
+    },
+    {
+      "title": "<html> tag should exists",
+      "status": "passed"
+    },
+    {
+      "title": "<head> tag should exists",
+      "status": "passed"
+    },
+    {
+      "title": "<title> tag exists and the innerHTML needs to be \"Hello World\"",
+      "status": "passed"
+    },
+    {
+      "title": "<body> tag exists",
+      "status": "passed"
+    },
+    {
+      "title": "The DOCTYPE needs to be added begore the <html> tag",
+      "status": "passed"
+    },
+    {
+      "title": "The <head> tag needs to be added imidialty after the html opening tag",
+      "status": "passed"
+    },
+    {
+      "title": "The <title> opening and closing tags need to be added inside the <head></head> tags",
+      "status": "passed"
+    },
+    {
+      "title": "The <body> opening tag needs to be added immediately after the </header> closing tag",
+      "status": "passed"
+    }
+  ]
+}

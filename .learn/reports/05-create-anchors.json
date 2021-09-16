@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "<a> tag exists",
+      "status": "passed"
+    },
+    {
+      "title": "<a> innerHTML exists and matches",
+      "status": "passed"
+    },
+    {
+      "title": "The url should be absolute and not relative",
+      "status": "passed"
+    },
+    {
+      "title": "The url should point to google",
+      "status": "passed"
+    }
+  ]
+}

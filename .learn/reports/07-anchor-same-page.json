@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 4,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "Two (2) <a> tags and innerHTML exist",
+      "status": "passed"
+    },
+    {
+      "title": "<h2> ids exist",
+      "status": "passed"
+    },
+    {
+      "title": "The first anchor needs to point to the second h2",
+      "status": "passed"
+    },
+    {
+      "title": "The second anchor needs to point to the first h2",
+      "status": "passed"
+    }
+  ]
+}

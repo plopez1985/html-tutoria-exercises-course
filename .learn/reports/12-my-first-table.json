@@ -1,0 +1,33 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTests": 3,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mReplicate Nested Tag Example › <table> tag, width & border exist\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"100%\"\u001b[39m\n    Received: \u001b[31m\"\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 |\u001b[39m      \u001b[36mconst\u001b[39m tableTag \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(\u001b[32m\"table\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 14 |\u001b[39m         expect(tableTag)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 15 |\u001b[39m         expect(tableTag\u001b[33m.\u001b[39mwidth)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"100%\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m          expect(tableTag\u001b[33m.\u001b[39mborder)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"1\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 17 |\u001b[39m     })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 18 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/12-my-first-table/tests.js\u001b[39m\u001b[0m\u001b[2m:15:32)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mReplicate Nested Tag Example › All <th> tag exists & innerHTML\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[32m- \u001b[39m\n    \u001b[32m- \t\t\t\t\tName\u001b[39m\n    \u001b[32m- \u001b[7m\t\t\t\t\u001b[27m\u001b[39m\n    \u001b[31m+ Name\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mfor\u001b[39m(\u001b[36mlet\u001b[39m i\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mi\u001b[33m<\u001b[39m\u001b[33mallTH\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mi\u001b[33m++\u001b[39m){\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 |\u001b[39m             \u001b[36mif\u001b[39m (i\u001b[33m===\u001b[39m\u001b[35m0\u001b[39m){\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 40 |\u001b[39m         expect(allTH[i]\u001b[33m.\u001b[39minnerHTML)\u001b[33m.\u001b[39mtoBe(\u001b[32m`\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 |\u001b[39m \u001b[32m\t\t\t\t\tName\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 |\u001b[39m \u001b[32m\t\t\t\t`\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 |\u001b[39m             }\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/12-my-first-table/tests.js\u001b[39m\u001b[0m\u001b[2m:40:36)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "<table> tag, width & border exist",
+      "status": "failed"
+    },
+    {
+      "title": "<tr>[0] bgcolor, height, align",
+      "status": "passed"
+    },
+    {
+      "title": "All <tr> tag exists & all <tr> align=left",
+      "status": "passed"
+    },
+    {
+      "title": "All <th> tag exists & innerHTML",
+      "status": "failed"
+    },
+    {
+      "title": "All <td> tag exists, innerHTML",
+      "status": "passed"
+    }
+  ]
+}
